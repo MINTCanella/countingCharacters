@@ -51,7 +51,6 @@ public class Main {
             writer.write("Подсчет символов в файле " + inputFile + ":\n");
             Files.writing(writer, counter);
             writer.write("Символов, не включенных в подсчет, нет в файле.");
-
         } catch (IOException e) {
             System.out.println("Ошибка при записи в файл: " + e.getMessage());
             return;
